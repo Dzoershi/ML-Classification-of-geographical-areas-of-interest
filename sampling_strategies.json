@@ -1,0 +1,34 @@
+{
+    "strategy": "undersampling",
+    "train_f1": 0.6193203995824904,
+    "test_f1": 0.28698152805413085
+}
+{
+    "strategy": "upsampling the two minority classes to 1/5 data (Mega projects) and 1/4 of the data",
+    "train_f1": 0.5840096677838696,
+    "test_f1": 0.4120404021458533
+}{
+    "strategy": "No upsampling",
+    "train_f1": 0.37654229235915687,
+    "test_f1": 0.39673260565445023
+}{
+    "strategy": "upsampling",
+    "sampling_strategy": {
+        "Industrial": 25000,
+        "Road": 25000,
+        "Mega Projects": 25000
+    },
+    "train_f1": 0.5895111082342422,
+    "test_f1": 0.41363658575424816,
+    "report": "               
+                precision    recall  f1-score   support
+    Commercial       0.55      0.49      0.52     19982
+    Demolition       0.72      0.72      0.72      6148  
+    Industrial       0.08      0.16      0.11       260
+    Mega Projects    0.00      0.00      0.00        29  
+    Residential      0.70      0.73      0.71     29292       
+    Road             0.42      0.41      0.42      2841     
+    accuracy                             0.63     58552  
+    macro avg        0.41      0.42      0.41     58552
+    weighted avg     0.64      0.63      0.63     58552"
+}
